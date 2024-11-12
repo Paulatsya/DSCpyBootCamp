@@ -5,9 +5,20 @@ text = "Hello, World!"
 for char in text:
     print(char)
 
-# Iterating with index using range()
-for i in range(len(text)):
-    print(f"Index {i}: {text[i]}")
+# Iterating a simple list using for
+
+nums = [10,20,30,40]
+for num in nums:
+    print(num)
+
+# Iterating a simple list using while
+
+index = 0
+
+nums = [10,20,30,40]
+while index < len(nums)
+    print(nums[index])
+
 
 # String traversal using while loop
 index = 0

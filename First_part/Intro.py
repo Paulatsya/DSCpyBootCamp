@@ -79,6 +79,29 @@ my_list = [1, 2, 3, 4]  # List of integers
 my_list.append(5)  # Add an item to the list
 print(f"List: {my_list}, Type: {type(my_list)}")
 
+# Example of Slicing
+my_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Syntax: list[start:end:step]
+print(my_list[2:7])        # Output: [2, 3, 4, 5, 6]
+print(my_list[:5])         # Output: [0, 1, 2, 3, 4] (from start to index 4)
+print(my_list[5:])         # Output: [5, 6, 7, 8, 9] (from index 5 to the end)
+print(my_list[::2])        # Output: [0, 2, 4, 6, 8] (every second element)
+print(my_list[::-1])       # Output: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0] (reversed list)
+
+# Example of Splicing
+my_list[2:5] = [20, 30, 40]   # Replacing elements from index 2 to 4
+print(my_list)                # Output: [0, 1, 20, 30, 40, 5, 6, 7, 8, 9]
+
+# Inserting new elements using slicing
+my_list[5:5] = [100, 200]     # Insert at index 5
+print(my_list)                # Output: [0, 1, 20, 30, 40, 100, 200, 5, 6, 7, 8, 9]
+
+# Deleting elements using slicing
+my_list[2:4] = []             # Remove elements at index 2 and 3
+print(my_list)                # Output: [0, 1, 40, 100, 200, 5, 6, 7, 8, 9]
+
+
 # Tuple: Ordered, immutable collection
 my_tuple = (10, 20, 30, 40)  # Tuple of integers
 print(f"Tuple: {my_tuple}, Type: {type(my_tuple)}")
@@ -95,7 +118,37 @@ my_set.add(2)  # Trying to add a duplicate item (won't be added)
 print(f"Set: {my_set}, Type: {type(my_set)}")
 
 
+OPERATORS
+ARITH
+a = 10
+b = 3
 
+print("Addition:", a + b)        # Output: 13
+print("Subtraction:", a - b)     # Output: 7
+print("Multiplication:", a * b)  # Output: 30
+print("Division:", a / b)        # Output: 3.3333
+print("Floor Division:", a // b) # Output: 3 (quotient without remainder)
+print("Modulus:", a % b)         # Output: 1 (remainder)
+print("Exponent:", a ** b)       # Output: 1000 (10^3)
+
+COMPARision
+x = 5
+y = 10
+
+print("Equal:", x == y)          # Output: False
+print("Not Equal:", x != y)      # Output: True
+print("Greater Than:", x > y)    # Output: False
+print("Less Than:", x < y)       # Output: True
+print("Greater or Equal:", x >= y) # Output: False
+print("Less or Equal:", x <= y)  # Output: True
+
+LOGICAL
+a = True
+b = False
+
+print("AND:", a and b)           # Output: False
+print("OR:", a or b)             # Output: True
+print("NOT:", not a)             # Output: False
 
 
 

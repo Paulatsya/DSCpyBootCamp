@@ -12,8 +12,8 @@ Welcome to the **Hello Python** event repository! This two-day event is designed
 
 ## Resources
 
-- [Event Presentation](link-to-presentation)
-- [Installation & Setup Guide]([link-to-google-doc](https://docs.google.com/document/d/1TflizATbAl2DeHiYj_StH30nyr8PHXhCgG_lIY8FVaE/edit?usp=sharing))
+- [Event Presentation] (https://www.canva.com/design/DAGWGGUdwAM/BVmB4fGo2EKzj5gx1UK0wA/edit)
+- [Installation & Setup Guide] (https://docs.google.com/document/d/1TflizATbAl2DeHiYj_StH30nyr8PHXhCgG_lIY8FVaE/edit?usp=sharing)
 
 ## Installation and Setup Guide
 

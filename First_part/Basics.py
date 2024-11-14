@@ -119,7 +119,7 @@ print(f"Set: {my_set}, Type: {type(my_set)}")
 
 
 OPERATORS
-ARITH
+1. ARITHMETIC
 a = 10
 b = 3
 
@@ -131,7 +131,7 @@ print("Floor Division:", a // b) # Output: 3 (quotient without remainder)
 print("Modulus:", a % b)         # Output: 1 (remainder)
 print("Exponent:", a ** b)       # Output: 1000 (10^3)
 
-COMPARision
+2. COMPARISION
 x = 5
 y = 10
 
@@ -142,7 +142,7 @@ print("Less Than:", x < y)       # Output: True
 print("Greater or Equal:", x >= y) # Output: False
 print("Less or Equal:", x <= y)  # Output: True
 
-LOGICAL
+3. LOGICAL
 a = True
 b = False
 
